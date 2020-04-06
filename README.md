@@ -12,6 +12,10 @@ An npm package to generate React code snippets for Component, functions etc.
 
 + Other usages e.g. to test functionality in scripts etc. (beginners, professionals)
 
+
+&raquo; As I have shown here how I directly copied the **Box** component and pasted directly above `ReactDOM.render(...)` statement. 
+The thing is, before copy paste work, you have to configure settings at Codepen. Just setup you JS compiler, add react libraries and then try as shown in the below image.
+
 ![Box At Codepen](./docs/images/codepen.png)
 
 ## Note
