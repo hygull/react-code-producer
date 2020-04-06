@@ -5,3 +5,97 @@
 An npm package to generate React code snippets for Component, functions etc.
 
 
+## Getting started
+
++ **`npm install react-code-producer --save` (locally)**
+
++ **`npm install react-code-producer --global` (globally)**
+
+## Code samples
+
+
+
+
+### Example 1
+
+> **Code**
+
+```javascript
+// Example 1
+const ReactCodeProducer = require("../src/index")
+
+let App = new ReactCodeProducer()
+
+console.log(App.getComponentCode('App'))
+```
+
+> **Output**
+
+```bash
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// React Component class `App`
+class App extends React.Component {
+    render() {
+        return (
+            <div className="App">
+                /* Add elements here */
+
+            </div>
+        )
+    }
+}
+```
+
+### Example 2
+
+> **Code**
+
+```javascript
+const ReactCodeProducer = require("react-code-producer")
+
+let AppIndex = new ReactCodeProducer({
+    component: {
+        code: true,
+        names: [
+            'App',
+            'Index'
+        ]
+    }
+})
+
+console.log(AppIndex.code)
+```
+
+> **Output**
+
+```bash
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// React Component class `App`
+class App extends React.Component {
+    render() {
+        return (
+            <div className="App">
+                /* Add elements here */
+
+            </div>
+        )
+    }
+}
+
+
+// React Component class `Index`
+class Index extends React.Component {
+    render() {
+        return (
+            <div className="Index">
+                /* Add elements here */
+
+            </div>
+        )
+    }
+}
+```
