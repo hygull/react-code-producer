@@ -4,6 +4,16 @@
 
 An npm package to generate React code snippets for Component, functions etc.
 
+## Generate code at terminal
+
++ copy and use it to quickly test what you learned (beginners)
+
++ use in projects and other developement environment in your editor/IDE does have any plugins etc. (professionals)
+
++ Other usages (both)
+
+![Box At Codepen](./docs/images/codepen.png)
+
 ## Note
 
 + React uses different style to add comments among JSX code. 
