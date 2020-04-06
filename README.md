@@ -7,7 +7,14 @@ An npm package to generate React code snippets for Component, functions etc.
 ## Note
 
 + React uses different style to add comments among JSX code. 
-So please write code after `{ /* Add elements here */ }` line, not just inside.
+So please write code after 
+```javascript
+{ 
+    /* Add elements here */ 
+    
+}
+``` 
+line, not just inside the curly braces while using the copied in your **React** application.
 
 
 ## :point_right: Getting started
@@ -47,7 +54,9 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                { /* Add elements here */ }
+                { 
+                    /* Add elements here */ 
+                }
 
             </div>
         )
@@ -86,7 +95,9 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                { /* Add elements here */ }
+                { 
+                    /* Add elements here */ 
+                }
 
             </div>
         )
@@ -99,7 +110,9 @@ class Index extends React.Component {
     render() {
         return (
             <div className="Index">
-                { /* Add elements here */ }
+                { 
+                    /* Add elements here */ 
+                }
 
             </div>
         )
