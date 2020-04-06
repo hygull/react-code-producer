@@ -7,14 +7,11 @@ An npm package to generate React code snippets for Component, functions etc.
 
 ## Getting started
 
-+ **`npm install react-code-producer --save` (locally)**
++ **`npm install react-code-producer --save`** - `Installs locally`
 
-+ **`npm install react-code-producer --global` (globally)**
++ **`npm install react-code-producer --global`** - `Installs globally`
 
 ## Code samples
-
-
-
 
 ### Example 1
 
@@ -40,7 +37,9 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                /* Add elements here */
+                {
+                    /* Add elements here */
+                }
 
             </div>
         )
@@ -79,7 +78,9 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                /* Add elements here */
+                {
+                    /* Add elements here */
+                }
 
             </div>
         )
@@ -92,7 +93,9 @@ class Index extends React.Component {
     render() {
         return (
             <div className="Index">
-                /* Add elements here */
+                {
+                    /* Add elements here */
+                }
 
             </div>
         )
