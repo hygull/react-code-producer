@@ -66,6 +66,40 @@ class App extends React.Component {
 
 ### Example 2
 
+> **Code** `code.js`, `(Automatic class name conversion, if it looks improper)`
+
+```javascript
+// Example 1
+const ReactCodeProducer = require("react-code-producer")
+
+let App = new ReactCodeProducer()
+
+console.log(App.getComponentCode('box'))
+```
+
+> **Output** `node code.js`
+
+```bash
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// React Component class `Box`
+class Box extends React.Component {
+    render() {
+        return (
+            <div className="Box">
+                { 
+                    /* Add elements here */ 
+                }
+
+            </div>
+        )
+    }
+}
+```
+
+### Example 3
+
 > **Code** `code.js`
 
 ```javascript

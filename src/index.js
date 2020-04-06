@@ -30,7 +30,16 @@ class ReactCodeBase {
     }
 
     getComponentName(name) {
-        return name? name: ''
+        name = name? name: ''
+        if(name === '') {
+            name = 'App'
+        } else {
+            if(!/^[a-zA-Z]+$/.test(name)) {
+                name = name.replace(/[^a-zA-Z]+/ig, '').tolowerCase()
+            }
+        }
+        name = name[0].toUpperCase() + name.slice(1)
+        return name
     }
 
     getComponentCode(name, {attachImport=true} = {}) {

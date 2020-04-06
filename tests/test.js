@@ -1,8 +1,8 @@
 // Example 1
 const ReactCodeProducer = require("../src/index")
 
-let App = new ReactCodeProducer('App')
-console.log(App.getComponentCode('App'))
+let App = new ReactCodeProducer()
+console.log(App.getComponentCode('box'))
 
 
 // Example 2 - Starter code for 2 components
