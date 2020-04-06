@@ -4,10 +4,8 @@ class {0} extends React.Component {
     render() {
         return (
             <div className="{0}">
-                {
-                    /* Add elements here */
-                }
-
+                { /* Add elements here */ }
+                
             </div>
         )
     }

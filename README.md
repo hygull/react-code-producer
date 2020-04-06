@@ -5,17 +5,25 @@
 An npm package to generate React code snippets for Component, functions etc.
 
 
-## Getting started
+## :point_right: Getting started
 
-+ **`npm install react-code-producer --save`** - `Installs locally`
++ **`npm install react-code-producer --save`**  
 
-+ **`npm install react-code-producer --global`** - `Installs globally`
+    > `Installs locally`
+
++ **`npm install react-code-producer --global`**  
+
+    > `Installs globally`
+
+
+> **Note:** React uses different style to add comments among JSX code. So please write code after `{ /* Add elements here */ }` line, not just inside.
+
 
 ## Code samples
 
 ### Example 1
 
-> **Code**
+> :pushpin: **Code**
 
 ```javascript
 // Example 1
@@ -37,9 +45,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                {
-                    /* Add elements here */
-                }
+                { /* Add elements here */ }
 
             </div>
         )
@@ -78,9 +84,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                {
-                    /* Add elements here */
-                }
+                { /* Add elements here */ }
 
             </div>
         )
@@ -93,12 +97,12 @@ class Index extends React.Component {
     render() {
         return (
             <div className="Index">
-                {
-                    /* Add elements here */
-                }
+                { /* Add elements here */ }
 
             </div>
         )
     }
 }
 ```
+
+Thank you very much.
