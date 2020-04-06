@@ -4,13 +4,13 @@
 
 An npm package to generate React code snippets for Component, functions etc.
 
-## Generate code at terminal
+## Generate code at terminal &
 
 + copy and use it to quickly test what you learned (beginners)
 
-+ use in projects and other developement environment in your editor/IDE does have any plugins etc. (professionals)
++ use in projects or other developement environment if your editor/IDE does have any plugins etc. (professionals)
 
-+ Other usages (both)
++ Other usages e.g. to test functionality in scripts etc. (beginners, professionals)
 
 ![Box At Codepen](./docs/images/codepen.png)
 
@@ -165,6 +165,34 @@ class Index extends React.Component {
 }
 
 export default Index;
+```
+
+## Project Structure
+
+```bash
+react-code-producer
+|
+├── LICENSE
+├── README.md
+├── _config.yml
+├── docs
+│   └── images
+│       └── codepen.png
+├── node_modules
+│   └── string-format
+│       ├── LICENSE
+│       ├── README.md
+│       ├── index.js
+│       └── package.json
+├── package-lock.json
+├── package.json
+├── src
+│   ├── index.js
+│   └── snippets
+│       ├── component.js
+│       └── imports.js
+└── tests
+    └── test.js
 ```
 
 Thank you very much.
