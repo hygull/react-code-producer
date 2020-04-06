@@ -25,7 +25,7 @@ So please write code after `{ /* Add elements here */ }` line, not just inside.
 
 ### Example 1
 
-> **Code**
+> **Code** `code.js`
 
 ```javascript
 // Example 1
@@ -36,7 +36,7 @@ let App = new ReactCodeProducer()
 console.log(App.getComponentCode('App'))
 ```
 
-> **Output**
+> **Output** `node code.js`
 
 ```bash
 import React from 'react';
@@ -57,7 +57,7 @@ class App extends React.Component {
 
 ### Example 2
 
-> **Code**
+> **Code** `code.js`
 
 ```javascript
 const ReactCodeProducer = require("react-code-producer")
@@ -75,7 +75,7 @@ let AppIndex = new ReactCodeProducer({
 console.log(AppIndex.code)
 ```
 
-> **Output**
+> **Output** `node code.js`
 
 ```bash
 import React from 'react';
