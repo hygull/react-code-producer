@@ -14,7 +14,7 @@ So please write code after
     
 }
 ``` 
-line, not just inside the curly braces while using the copied in your **React** application.
+React comment statement, not just inside the curly braces while using the copied in your **React** application.
 
 
 ## :point_right: Getting started
