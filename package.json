@@ -1,6 +1,6 @@
 {
   "name": "react-code-producer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An npm package to generate React code snippets for Component, functions etc.",
   "main": "./src/index.js",
   "scripts": {

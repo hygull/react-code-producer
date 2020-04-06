@@ -35,7 +35,6 @@ React comment statement, not just inside the curly braces while using the copied
 > **Code** `code.js`
 
 ```javascript
-// Example 1
 const ReactCodeProducer = require("react-code-producer")
 
 let App = new ReactCodeProducer()
@@ -69,7 +68,6 @@ class App extends React.Component {
 > **Code** `code.js`, `(Automatic class name conversion, if it looks improper)`
 
 ```javascript
-// Example 1
 const ReactCodeProducer = require("react-code-producer")
 
 let App = new ReactCodeProducer()
