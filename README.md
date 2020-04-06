@@ -4,6 +4,11 @@
 
 An npm package to generate React code snippets for Component, functions etc.
 
+## Note
+
++ React uses different style to add comments among JSX code. 
+So please write code after `{ /* Add elements here */ }` line, not just inside.
+
 
 ## :point_right: Getting started
 
@@ -16,18 +21,15 @@ An npm package to generate React code snippets for Component, functions etc.
     > `Installs globally`
 
 
-> **Note:** React uses different style to add comments among JSX code. So please write code after `{ /* Add elements here */ }` line, not just inside.
-
-
-## Code samples
+## :pushpin: Code samples
 
 ### Example 1
 
-> :pushpin: **Code**
+> **Code**
 
 ```javascript
 // Example 1
-const ReactCodeProducer = require("../src/index")
+const ReactCodeProducer = require("react-code-producer")
 
 let App = new ReactCodeProducer()
 
