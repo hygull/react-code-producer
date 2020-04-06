@@ -13,6 +13,7 @@ class {0} extends React.Component {
     }
 }
 
+export default {0};
 `
 
 module.exports = componentCode

@@ -94,6 +94,8 @@ class Box extends React.Component {
         )
     }
 }
+
+export default Box;
 ```
 
 ### Example 3
@@ -136,6 +138,7 @@ class App extends React.Component {
     }
 }
 
+export default App;
 
 // React Component class `Index`
 class Index extends React.Component {
@@ -150,6 +153,8 @@ class Index extends React.Component {
         )
     }
 }
+
+export default Index;
 ```
 
 Thank you very much.
