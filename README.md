@@ -1,6 +1,6 @@
 # react-code-producer
 
-![Custom badge](https://img.shields.io/endpoint?color=green&label=react-code-producer&logo=react&style=plastic&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
+![npm](https://img.shields.io/npm/v/react-code-producer) &nbsp; ![Custom badge](https://img.shields.io/endpoint?color=green&label=react-code-producer&logo=react&style=plastic&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday) &nbsp; ![npm](https://img.shields.io/npm/dw/react-code-producer) &nbsp; ![npm bundle size](https://img.shields.io/bundlephobia/min/react-code-producer)
 
 An npm package to generate React code snippets for Component, functions etc.
 
@@ -15,7 +15,7 @@ An npm package to generate React code snippets for Component, functions etc.
     + [Example 2 - Single Component, 2nd usage style](#example-2)
 
     + [Example 3 - Multiple Components](#example-3)
-    
+
 ## Generate code at terminal &
 
 + copy and use it to quickly test what you learned (beginners)
