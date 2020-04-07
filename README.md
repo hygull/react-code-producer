@@ -46,7 +46,7 @@ So please write code after
 
 React comment statement, not just inside the curly braces while using the copied in your **React** application.
 
-<h2 id="getting-started">:point_right: Getting started</h2>
+<h2 id="getting-started">Getting started</h2>
 
 + **`npm install react-code-producer --save`**  
 
@@ -57,7 +57,7 @@ React comment statement, not just inside the curly braces while using the copied
     > `Installs globally`
 
 
-<h2 id="code-samples">:notebook: Examples (Code samples)</h2>
+<h2 id="code-samples">Examples (Code samples)</h2>
 
 <h3 id="example-1">Example 1 - Single Component</h3>
 
