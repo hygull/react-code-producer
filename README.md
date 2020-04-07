@@ -1,6 +1,6 @@
 # react-code-producer
 
-![npm](https://img.shields.io/npm/v/react-code-producer) &nbsp; ![Custom badge](https://img.shields.io/endpoint?color=green&label=react-code-producer&logo=react&style=plastic&url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday) &nbsp; ![npm](https://img.shields.io/npm/dw/react-code-producer) &nbsp; ![npm bundle size](https://img.shields.io/bundlephobia/min/react-code-producer)
+![npm](https://img.shields.io/npm/v/react-code-producer) &nbsp; ![NPM](https://img.shields.io/npm/l/react-code-producer?label=react-code-producer%2C%20license) &nbsp; ![npm](https://img.shields.io/npm/dw/react-code-producer) &nbsp; ![npm bundle size](https://img.shields.io/bundlephobia/min/react-code-producer)
 
 An npm package to generate React code snippets for Component, functions etc.
 
