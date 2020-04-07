@@ -14,10 +14,13 @@ class ReactCodeBase {
         if('component' in configurations) {
             if(this.configurations.component.code === true) {
                 if('names' in configurations.component) {
-                    for(let name of configurations.component.names)
+                    let exportsCode = ''
+                    for(let name of configurations.component.names) {
                         this.code += this.getComponentCode(name, {attachImport: false})
+                        exportsCode += this.getExports(name)
+                    }
 
-                    this.code = this.getImports() + this.code
+                    this.code = this.getImports() + this.code + exportsCode
                 }
             }
         }
@@ -25,8 +28,13 @@ class ReactCodeBase {
     }
 
     getImports() {
-        let importsCode = require("./snippets/imports");
+        let {importsCode} = require("./snippets/imports");
         return importsCode
+    }
+
+    getExports(name) {
+        let {exportsCode} = require("./snippets/exports");
+        return format(exportsCode, name)
     }
 
     getComponentName(name) {
@@ -44,12 +52,13 @@ class ReactCodeBase {
 
     getComponentCode(name, {attachImport=true} = {}) {
         // Double work, no external set function, jsut do it in one go
-        let componentCode = require("./snippets/component");
+        let {componentCode} = require("./snippets/component");
         this.code = format(componentCode, this.getComponentName(name))
 
         if(attachImport) {
-            this.code = this.getImports() + this.code
+            this.code = this.getImports() + this.code + this.getExports(name);
         }
+
         return this.code
     }
 }

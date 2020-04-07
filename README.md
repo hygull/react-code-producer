@@ -24,12 +24,14 @@ An npm package to generate React code snippets for Component, functions etc.
 
 + React uses different style to add comments among JSX code. 
 So please write code after 
+
 ```javascript
 { 
     /* Add elements here */ 
     
 }
 ``` 
+
 React comment statement, not just inside the curly braces while using the copied in your **React** application.
 
 
@@ -154,8 +156,6 @@ class App extends React.Component {
     }
 }
 
-export default App;
-
 // React Component class `Index`
 class Index extends React.Component {
     render() {
@@ -170,6 +170,7 @@ class Index extends React.Component {
     }
 }
 
+export default App;
 export default Index;
 ```
 
