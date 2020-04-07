@@ -38,9 +38,7 @@ React comment statement, not just inside the curly braces while using the copied
 
 + [Getting started](#getting-started)
 
-+ [Code samples](#code-samples)
-
-+ [Exmaples](#examples)
++ [Examples (code samples)](#code-samples)
 
     + [Example 1 - Single Component](#example-1)
 
@@ -59,9 +57,7 @@ React comment statement, not just inside the curly braces while using the copied
     > `Installs globally`
 
 
-<h2 id="code-samples">:pushpin: Code samples</h2>
-
-<h2 id="examples">:notebook: Examples</h2>
+<h2 id="code-samples">:notebook: Examples (Code samples)</h2>
 
 <h3 id="example-1">Example 1 - Single Component</h3>
 
