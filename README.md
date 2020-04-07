@@ -4,6 +4,18 @@
 
 An npm package to generate React code snippets for Component, functions etc.
 
+## Table of contents
+
++ [Getting started](#getting-started)
+
++ [Examples (code samples)](#code-samples)
+
+    + [Example 1 - Single Component](#example-1)
+
+    + [Example 2 - Single Component, 2nd usage style](#example-2)
+
+    + [Example 3 - Multiple Components](#example-3)
+    
 ## Generate code at terminal &
 
 + copy and use it to quickly test what you learned (beginners)
@@ -33,18 +45,6 @@ So please write code after
 ``` 
 
 React comment statement, not just inside the curly braces while using the copied in your **React** application.
-
-## Table of contents
-
-+ [Getting started](#getting-started)
-
-+ [Examples (code samples)](#code-samples)
-
-    + [Example 1 - Single Component](#example-1)
-
-    + [Example 2 - Single Component, 2nd usage style](#example-2)
-
-    + [Example 3 - Multiple Components](#example-3)
 
 <h2 id="getting-started">:point_right: Getting started</h2>
 
