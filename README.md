@@ -34,8 +34,21 @@ So please write code after
 
 React comment statement, not just inside the curly braces while using the copied in your **React** application.
 
+## Table of contents
 
-## :point_right: Getting started
++ [Getting started](#getting-started)
+
++ [Code samples](#code-samples)
+
++ [Exmaples](#examples)
+
+    + [Example 1 - Single Component](#example-1)
+
+    + [Example 2 - Single Component, 2nd usage style](#example-2)
+
+    + [Example 3 - Multiple Components](#example-3)
+
+<h2 id="getting-started">:point_right: Getting started</h2>
 
 + **`npm install react-code-producer --save`**  
 
@@ -46,9 +59,11 @@ React comment statement, not just inside the curly braces while using the copied
     > `Installs globally`
 
 
-## :pushpin: Code samples
+<h2 id="code-samples">:pushpin: Code samples</h2>
 
-### Example 1
+<h2 id="examples">:notebook: Examples</h2>
+
+<h3 id="example-1">Example 1 - Single Component</h3>
 
 > **Code** `code.js`
 
@@ -81,7 +96,7 @@ class App extends React.Component {
 }
 ```
 
-### Example 2
+<h3 id="example-2">Example 2 - Single Component, 2nd usage style</h3>
 
 > **Code** `code.js`, `(Automatic class name conversion, if it looks improper)`
 
@@ -116,7 +131,7 @@ class Box extends React.Component {
 export default Box;
 ```
 
-### Example 3
+<h3 id="example-3">Example 3 - Multiple Components</h3>
 
 > **Code** `code.js`
 
